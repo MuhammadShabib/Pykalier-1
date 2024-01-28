@@ -1,0 +1,180 @@
+/* .bg-yellow {
+    background-color: #eec63a !important;
+} */
+
+.bg-gray {
+    background-color: #f9f9f9;
+}
+
+.color-blue {
+    color: #002471 !important;
+}
+
+.a-s {
+    padding-bottom: 0;
+    transform: 0.5s;
+    border-bottom: 2px solid transparent;
+}
+
+.a-s:hover {
+    transform: all 0.5s;
+    border-bottom: 2px solid #002471;
+}
+
+
+/* Nav Bar */
+
+.header-scrolled {
+    background-color: white;
+    box-shadow: 0px 2px 20px rgb(1 41 112/10%);
+    padding: 20px 0;
+}
+
+.nav-logo {
+    width: 65px;
+    height: 65px;
+}
+
+
+/* Slider */
+
+.carousel-css {
+    /* width: 100%; */
+    height: 70vh;
+    /* box-sizing: content-box; */
+}
+
+.carousel-inner,
+.carousel-item {
+    height: 100%;
+}
+
+.carousel-item {
+    display: flex;
+    align-items: center;
+}
+
+.bg-img-1 {
+    background: url("./imgs/1\(1\).jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-img-2 {
+    background: url('./imgs/1\(1\).jpg');
+    /* background-color: #002471; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-img-3 {
+    background: url('./imgs/1\(2\).jpeg');
+    background-color: #002471;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* Contact Us */
+
+.info-box,
+.contact-form {
+    background-color: #fafbff;
+    padding: 30px;
+}
+
+.info-box i {
+    color: #4154f1;
+    line-height: 0px;
+    font-size: 38px;
+}
+
+.info-box .clphone {
+    direction: ltr;
+    text-align: right;
+}
+
+.contact-form {
+    height: 100%;
+}
+
+
+/* Courses */
+
+.plans .card {
+    transition: all .4s;
+}
+
+.plans .card:hover {
+    transform: scale(1.1);
+}
+
+
+/* Company */
+
+.company-section {
+    text-align: center;
+    padding: 30px 0;
+    background-color: #f8f8f8;
+}
+
+.company-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.company-item {
+    width: 250px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.company-item:hover {
+    transform: translateY(-5px);
+}
+
+.company-item img {
+    width: 100%;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+.company-item h3 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.company-item p {
+    color: #777;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+
+/* Footer */
+
+.back-to-top {
+    position: fixed;
+    right: 1.8rem;
+    bottom: 1.8rem;
+    width: 3rem;
+    height: 3rem;
+    text-decoration: none !important;
+}
+
+
+/* . {
+    blue: #002471;
+    red: #d94940;
+    yellow: #eec63a;
+} */
