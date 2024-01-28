@@ -2,6 +2,19 @@
     background-color: #eec63a !important;
 } */
 
+@font-face {
+    font-family: "Vazir";
+    src: url(fonts/Vazir.eot);
+    src: url(fonts/Vazir.eot?#iefix) format("embedded-opentype"), url(fonts/Vazir.woff2) format("woff2"), url(fonts/Vazir.woff)format("woff"), url(fonts/Vazir.ttf) format("truetype");
+}
+
+* {
+    font-family: "Vazir", cursive !important;
+    background: url(./assets/images/bg.jpg) no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
 .bg-gray {
     background-color: #f9f9f9;
 }
@@ -50,8 +63,25 @@
 }
 
 .carousel-item {
-    display: flex;
+    display: flex !important;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.carousel-item::after {
+    content: " ";
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: rgba(0, 0, 0, .3);
+}
+
+.zin {
+    z-index: 33;
 }
 
 .bg-img-1 {
