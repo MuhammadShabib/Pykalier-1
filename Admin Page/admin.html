@@ -12,7 +12,7 @@
     <h1>Admin Panel</h1>
     <main>
         <!-- Slider -->
-        <section class="admin-slider">
+        <section class="admin-slider card">
             <h1>Changeing Slider</h1>
 
             <form action="">
@@ -27,58 +27,40 @@
 
         </section>
         <!-- About Us -->
-        <section class="admin-about-us">
+        <section class="admin-about-us card">
             <h1>Changeing About US</h1>
             <form action="">
-                <div>
-                    <label for="about-img"></label>
-                    <input type="file" name="about-img" id="about-img">
-                </div>
-                <div>
-                    <label for="about-first-title"></label>
-                    <input type="text" name="about-first-title" id="about-first-title">
-                </div>
-                <div>
-                    <label for="about-second-title"></label>
-                    <input type="text" name="about-second-title" id="about-second-title">
-                </div>
-                <div>
-                    <label for="about-content-title"></label>
-                    <textarea name="about-content-title" id="about-content-title"></textarea>
-                </div>
-                <div>
-                    <label for="about-btn"></label>
-                    <input name="about-content" id="about-btn-btn">
-                </div>
+                <label for="about-img">Enter image for About Section</label>
+                <input type="file" name="about-img" id="about-img">
+                <input type="text" name="about-first-title" placeholder="Enter first title" id="about-first-title">
+                <input type="text" name="about-second-title" id="about-second-title" placeholder="Enter secons title">
+                <textarea name="about-content" id="about-content" placeholder="Enter About content "></textarea>
+                <!-- <input type="text" name="about-content" id="about-btn-btn" placeholder=""> -->
                 <button type="submit"> Submit </button>
             </form>
         </section>
         <!-- Contact Us -->
-        <section class="admin-contact-us">
+        <section class="admin-contact-us card">
             <form action="">
                 <div>
-                    <label for="address">Address</label>
                     <input type="text" placeholder="Enter Address">
                 </div>
                 <div>
-                    <label for="Phone">Phone</label>
                     <input type="tel" placeholder="Enter phone number">
                     <input type="tel" placeholder="Enter phone number">
                 </div>
                 <div>
-                    <label for="email">Email</label>
                     <input type="email" placeholder="Enter Your Email">
                     <input type="email" placeholder="Enter Your Email">
                 </div>
                 <div>
-                    <label for="time">Email</label>
-                    <textarea name="time" id="time" cols="30" rows="10"></textarea>
+                    <input name="time" id="time" cols="30" rows="10">
                 </div>
                 <button type="submit">Submit</button>
             </form>
         </section>
         <!-- Courses -->
-        <section class=" admin-courses">
+        <section class=" admin-courses card">
             <form action="">
                 <div>
                     <div>
