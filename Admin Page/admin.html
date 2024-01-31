@@ -41,6 +41,7 @@
         </section>
         <!-- Contact Us -->
         <section class="admin-contact-us card">
+            <h1>Changeing Contact Us</h1>
             <form action="">
                 <input type="text" placeholder="Enter Address">
                 <input type="tel" placeholder="Enter phone number">
@@ -53,37 +54,35 @@
         </section>
         <!-- Courses -->
         <section class=" admin-courses card">
+            <h1>Changeing Courses</h1>
             <form action="">
-                <div>
-                    <div>
-                        <label for="courses-title"></label>
-                        <input name="courses-title" id="courses-title" type="text">
-                    </div>
-                    <div>
-                        <label for="courses-detail"></label>
-                        <input name="courses-detail" id="courses-detail" type="text">
-                    </div>
-                </div>
-                <div class="courses-card">
-                    <div>
-                        <label for="course-title"></label>
-                        <input type="text" name="course-title" placeholder="Enter Course Title">
-                    </div>
-                    <div>
-                        <label for="course-teacher"></label>
-                        <input type="text" name="course-teacher" id="course-teacher" placeholder="Enter Teacher of course">
-                    </div>
-                    <div>
-                        <label for="course-poster"></label>
-                        <input type="file" name="course-poster" id="course-poster" placeholder="Enter Teacher of course">
-                    </div>
-                    <div>
-                        <label for="course-poster"></label>
-                        <textarea name="course-detail" id="course-detail" placeholder="Enter details about course"></textarea>
-                    </div>
-                </div>
+
+                <h2 style="text-align: left; margin: 20px;">Header of Courses</h2>
+                <input name="courses-title" id="courses-title" type="text" placeholder="Title of Course">
+                <input name="courses-detail" id="courses-detail" placeholder="About Course" type="text">
+                <h2 style="text-align: left; margin: 20px;">Courses Content</h2>
+                <input type="text" name="course-title" placeholder="Enter Course Title">
+                <input type="text" name="course-teacher" id="course-teacher" placeholder="Enter Teacher of course">
+                <label for="course-poster" style="text-align: left;
+                margin: 10px;">Enter Poster of course</label>
+                <input type="file" name="course-poster" id="course-poster">
+                <textarea name="course-detail" id="course-detail" placeholder="Enter details about course"></textarea>
+                <input type="text" name="Course-time" id="Course-time" placeholder="Time of Course">
             </form>
         </section>
+        <!-- Company -->
+        <section class="admin-contact-us card">
+            <h1>Changeing Companys</h1>
+            <form action="">
+                <label style="text-align: left; margin: 10px;" for="CompanyLogo"> Enter company logo </label>
+                <input type="file" name="CompanyLogo" id="company-logo">
+                <input type="text" placeholder="Enter name of company">
+
+                <textarea name="time" id="time" cols="48" placeholder="Enter detail about company"></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
         <section class="admin-footer"></section>
     </main>
     <script src=" admin.js "></script>

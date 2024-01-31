@@ -10,6 +10,9 @@ body {
     height: 100%;
     background: linear-gradient(to right, #05226b, #d84e3e);
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 h1 {
@@ -19,7 +22,7 @@ h1 {
 main {
     margin-top: 20px;
     display: flex;
-    width: 100%;
+    width: 80%;
     height: 100%;
     flex-wrap: wrap;
     justify-content: space-around;
