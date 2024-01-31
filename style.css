@@ -48,6 +48,35 @@
     height: 65px;
 }
 
+.navbar-collapse {
+    flex-grow: 0 !important;
+}
+
+.con-nav {
+    display: flex !important;
+    justify-content: space-between !important;
+}
+
+.social {
+    font-size: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 30%;
+}
+
+.social i {
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.social .telegram {
+    color: #40a7e3;
+}
+
+.social .whatsapp {
+    color: #4cc95b;
+}
+
 
 /* Slider */
 
