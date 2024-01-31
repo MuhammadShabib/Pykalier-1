@@ -15,13 +15,14 @@
     background-size: cover;
 }
 
-.bg-gray {
+
+/* .bg-gray {
     background-color: #f9f9f9;
 }
 
 .color-blue {
     color: #002471 !important;
-}
+} */
 
 .a-s {
     padding-bottom: 0;
@@ -36,6 +37,14 @@
 
 
 /* Nav Bar */
+
+.bg-blue {
+    background-color: #002570 !important;
+}
+
+.bg-blue a {
+    color: #ffd47e !important;
+}
 
 .header-scrolled {
     background-color: white;
@@ -57,33 +66,50 @@
     justify-content: space-between !important;
 }
 
-.social {
+.socials {
     font-size: 20px;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     width: 30%;
+    flex-grow: 1;
 }
 
-.social i {
-    font-size: 30px;
-    margin-right: 10px;
+.socials i {
+    font-size: 20px;
+    margin-right: 5px;
 }
 
-.social .telegram {
+.socials .telegram {
     color: #40a7e3;
 }
 
-.social .whatsapp {
+.socials .whatsapp {
     color: #4cc95b;
+}
+
+.social {
+    padding: 6px;
+    padding-bottom: 2px;
+    border-radius: 10px;
+    background-color: #ffd47e;
+    margin-right: 20px;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3px;
+}
+
+.social p,
+i {
+    margin: 0 !important;
+    padding: 0 !important;
 }
 
 
 /* Slider */
 
 .carousel-css {
-    /* width: 100%; */
     height: 70vh;
-    /* box-sizing: content-box; */
 }
 
 .carousel-inner,
@@ -91,15 +117,7 @@
     height: 100%;
 }
 
-.carousel-item {
-    display: flex !important;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-}
-
-.carousel-item::after {
+.carousel-item1::after {
     content: " ";
     height: 100%;
     width: 100%;
@@ -110,7 +128,16 @@
 }
 
 .zin {
-    z-index: 33;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.zin h4,
+p {
+    z-index: 2;
 }
 
 .bg-img-1 {
