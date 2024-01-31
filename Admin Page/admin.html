@@ -1,37 +1,3 @@
-<!-- <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin Panel</title>
-    <link rel="stylesheet" href="admin.css">
-</head>
-
-<body>
-    <h1>Admin Panel</h1>
-
-    <form id="contentForm">
-        <label for="headerContent">Header Content:</label>
-        <input type="text" id="headerContent" name="headerContent">
-
-        <label for="sliderContent">Slider Content:</label>
-        <textarea id="sliderContent" name="sliderContent"></textarea>
-
-        <label for="aboutContent">About Content:</label>
-        <textarea id="aboutContent" name="aboutContent"></textarea>
-
-        <button type="submit">Save Changes</button>
-    </form>
-
-    <script src="admin.js"></script>
-</body>
-
-</html> -->
-
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -44,11 +10,101 @@
 
 <body>
     <h1>Admin Panel</h1>
-    <form action="">
+    <!-- Slider -->
+    <section class="admin-slider">
+        <h1>Changeing Slider</h1>
 
-    </form>
+        <form action="">
+            <div>
+                <label for="header-slider"></label>
+                <input type="text" placeholder="Header of slider">
+                <label for="content-slider"></label>
+                <input type="text" id="content-slider" placeholder="content of slider">
+            </div>
+            <div>
+                <label for="">Adding image to slider</label>
+                <input name="img" id="slider-img" type="file" alt="image">
+            </div>
+            <button type="submit"> Submit </button>
+        </form>
 
-    <script src="admin.js"></script>
+    </section>
+    <!-- About Us -->
+    <section class="admin-about-us">
+        <form action="">
+            <div>
+                <label for="about-img"></label>
+                <input type="file" name="about-img" id="about-img">
+            </div>
+            <div>
+                <label for="about-first-title"></label>
+                <input type="text" name="about-first-title" id="about-first-title">
+            </div>
+            <div>
+                <label for="about-second-title"></label>
+                <input type="text" name="about-second-title" id="about-second-title">
+            </div>
+            <div>
+                <label for="about-content-title"></label>
+                <textarea name="about-content-title" id="about-content-title"></textarea>
+            </div>
+            <div>
+                <label for="about-btn"></label>
+                <input name="about-content" id="about-btn-btn">
+            </div>
+            <button type="submit"> Submit </button>
+        </form>
+    </section>
+    <!-- Contact Us -->
+    <section class="admin-contact-us">
+        <form action="">
+            <div>
+                <label for="address">Address</label>
+                <input type="text" placeholder="Enter Address">
+            </div>
+            <div>
+                <label for="Phone">Phone</label>
+                <input type="tel" placeholder="Enter phone number">
+                <input type="tel" placeholder="Enter phone number">
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" placeholder="Enter Your Email">
+                <input type="email" placeholder="Enter Your Email">
+            </div>
+            <div>
+                <label for="time">Email</label>
+                <textarea name="time" id="time" cols="30" rows="10"></textarea>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    <section class=" admin-courses">
+        <form action="">
+            <div>
+                <div>
+                    <label for="courses-title"></label>
+                    <input name="courses-title" id="courses-title" type="text">
+                </div>
+                <div>
+                    <label for="courses-detail"></label>
+                    <input name="courses-detail" id="courses-detail" type="text">
+                </div>
+            </div>
+            <div class="courses-card">
+                <div>
+                    <label for="course-title"></label>
+                    <input type="text" name="course-title" placeholder="Enter Course Title">
+                </div>
+                <div>
+                    <label for="course-teacher"></label>
+                    <input type="text" name="course-teacher" id="course-teacher" placeholder="Enter Teacher of course">
+
+                </div>
+            </div>
+        </form>
+    </section>
+    <script src=" admin.js "></script>
 </body>
 
 </html>
