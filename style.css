@@ -43,7 +43,7 @@
 }
 
 .bg-blue a {
-    color: #ffd47e !important;
+    color: #e7413f !important;
 }
 
 .header-scrolled {
@@ -91,7 +91,7 @@
     padding: 6px;
     padding-bottom: 2px;
     border-radius: 10px;
-    background-color: #ffd47e;
+    background-color: #fff;
     margin-right: 20px;
     display: flex !important;
     align-items: center;
@@ -233,19 +233,30 @@ p {
 }
 
 .company-item h3 {
-    color: #333;
+    color: #eecc4a;
     font-size: 20px;
     margin-bottom: 10px;
 }
 
 .company-item p {
-    color: #777;
+    color: #e7413f;
     font-size: 14px;
     line-height: 1.5;
 }
 
 
 /* Footer */
+
+.footer {
+    background-color: #002070 !important;
+    color: #e7413f;
+}
+
+.footer a,
+footer p {
+    text-decoration: none;
+    color: #eecc4a;
+}
 
 .back-to-top {
     position: fixed;
