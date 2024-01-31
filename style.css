@@ -1,7 +1,3 @@
-/* .bg-yellow {
-    background-color: #eec63a !important;
-} */
-
 @font-face {
     font-family: "Vazir";
     src: url(fonts/Vazir.eot);
@@ -14,15 +10,6 @@
     background-attachment: fixed;
     background-size: cover;
 }
-
-
-/* .bg-gray {
-    background-color: #f9f9f9;
-}
-
-.color-blue {
-    color: #002471 !important;
-} */
 
 .a-s {
     padding-bottom: 0;
@@ -37,6 +24,12 @@
 
 
 /* Nav Bar */
+
+.brg {
+    color: black;
+    border: 1px solid black;
+    border-radius: 3px;
+}
 
 .bg-light a {
     color: #e7413f !important;
