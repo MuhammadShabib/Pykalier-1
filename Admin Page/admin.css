@@ -1,40 +1,84 @@
-/* body {
-    font-family: Arial, sans-serif;
-    padding: 20px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-
-form {
-    margin-bottom: 20px;
-}
-
-input,
-textarea {
-    display: block;
-    margin-bottom: 10px;
-    width: 100%;
-} */
 
 body {
-    font-family: Arial, sans-serif;
     padding: 20px;
-}
-
-h1 {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #05226b, #d84e3e);
     text-align: center;
 }
 
-form {
-    max-width: 400px;
-    margin: 0 auto;
+h1 {
+    color: #d84e3e;
 }
 
-label,
-input {
-    display: block;
-    margin-bottom: 10px;
+main {
+    display: flex;
 }
 
-button {
-    display: block;
-    margin-top: 10px;
+
+/* slider */
+
+.admin-slider {
+    width: 30%;
+    height: 40%;
+    /* background-color: #f2c82e00; */
+    background-color: #f2c62e;
+    border-radius: 10px;
+    box-shadow: 2px 3px 10px rgba(0, 0, 0, .7);
+    padding: 20px;
+}
+
+.admin-slider form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    /* color: white; */
+}
+
+.admin-slider form input[type=text] {
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 5px;
+    border: none;
+}
+
+.admin-slider form input[type=text]:focus {
+    box-shadow: 0 0 0 0.25rem #f97566;
+    border: 1px solid #d84e3e;
+    outline: none;
+}
+
+.admin-slider form div {
+    display: flex;
+    margin: 10px 0;
+    padding: 5px 3px;
+    width: 100%;
+}
+
+.admin-slider form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+.admin-slider form button:hover {
+    background-color: #d84e3e;
+}
+
+
+/* admin-about-us */
+
+.admin-about-us {
+    width: 30%;
+    height: 40%;
+    /* background-color: #f2c82e00; */
+    background-color: #f2c62e;
+    border-radius: 10px;
+    box-shadow: 2px 3px 10px rgba(0, 0, 0, .7);
+    padding: 20px;
 }
