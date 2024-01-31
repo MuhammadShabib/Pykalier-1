@@ -32,17 +32,13 @@
 
 .a-s:hover {
     transform: all 0.5s;
-    border-bottom: 2px solid #002471;
+    border-bottom: 2px solid #e7413f;
 }
 
 
 /* Nav Bar */
 
-.bg-blue {
-    background-color: #002570 !important;
-}
-
-.bg-blue a {
+.bg-light a {
     color: #e7413f !important;
 }
 
@@ -233,13 +229,11 @@ p {
 }
 
 .company-item h3 {
-    color: #eecc4a;
     font-size: 20px;
     margin-bottom: 10px;
 }
 
 .company-item p {
-    color: #e7413f;
     font-size: 14px;
     line-height: 1.5;
 }
@@ -247,15 +241,10 @@ p {
 
 /* Footer */
 
-.footer {
-    background-color: #002070 !important;
-    color: #e7413f;
-}
-
 .footer a,
 footer p {
     text-decoration: none;
-    color: #eecc4a;
+    color: #e7413f;
 }
 
 .back-to-top {
