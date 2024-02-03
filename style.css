@@ -256,8 +256,26 @@ footer p {
 }
 
 
-/* . {
-    blue: #002471;
-    red: #d94940;
-    yellow: #eec63a;
-} */
+/* Courses Page */
+
+.course-detail {
+    height: 90vh !important;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.cont-course {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh !important;
+}
+
+.cont-course div {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cont-course div button {
+    margin-left: 20px;
+}
