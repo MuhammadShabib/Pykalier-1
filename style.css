@@ -285,3 +285,47 @@ footer p {
         height: 70px;
     }
 }
+
+
+/* Services */
+
+#body {
+    width: 98vw;
+    height: 80vh;
+}
+
+.container1 {
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+
+.container1 img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.content1 {
+    margin-top: 20px;
+    background-color: #4154f1;
+    width: 100%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+    height: 50%;
+}
+
+.content1 p {
+    text-align: center;
+    margin-top: 10px;
+}
