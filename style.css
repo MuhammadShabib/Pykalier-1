@@ -279,3 +279,9 @@ footer p {
 .cont-course div button {
     margin-left: 20px;
 }
+
+@media (max-width:100px) {
+    #back {
+        height: 70px;
+    }
+}
