@@ -1,0 +1,29 @@
+.course-detail {}
+
+.course-detail {
+    height: 90vh !important;
+}
+
+.cont-course {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh !important;
+}
+
+.cont-course div {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cont-course div button {
+    margin-left: 20px;
+}
+
+
+/* .cont-course div<p {
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+} */
