@@ -65,6 +65,7 @@
 
 .serv {
     display: none;
+    list-style-type: none;
     border-bottom: #40a7e3 1px solid;
 }
 
